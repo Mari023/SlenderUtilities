@@ -1,0 +1,6 @@
+{
+   "parent": "block/cube_all",
+   "textures": {
+       "all": "slenderutilities:blocks/metals/ore/ore_gold"
+   }
+}

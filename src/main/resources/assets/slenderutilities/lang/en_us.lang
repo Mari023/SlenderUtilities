@@ -1,0 +1,51 @@
+item.trowel.name=Crude Trowel
+item.stone_chisel.name=Stone chisel
+item.bone_pickaxe.name=Bone Pickaxe
+item.flint-wood_pickaxe.name=Flint-Wood Pickaxe
+item.flint-bone_pickaxe.name=Flint-Bone Pickaxe
+item.bone-wood_pickaxe.name=Bone-Wood Pickaxe
+
+item.xhadiupalm.name=xhadiuPalm
+itemGroup.slenderutilities=Slender Utilities
+item.mari_023.name=Mari_023
+item.blackdemonfire.name=BlackDemonFire
+item.schockocraft.name=Schockocraft
+item.phillip.name=Phillip
+
+
+item.ingotsimple.name=Simple Ingot
+item.ingotmediocore.name=Mediocore Ingot
+item.ingotcomplex.name=Complex Ingot
+item.ingotcreative.name=Creative Ingot
+
+item.saw.name=Saw
+item.woven_string.name=Woven String
+item.yarn.name=Yarn
+item.sticky_twine.name=Sticky Twine
+item.cloth.name=Cloth
+item.mechanicalconnector.name=Transmission Hub
+item.stone_chisel_head.name=Stone Chisel Head
+
+item.paper_wet.name=Wet Paper
+item.cardboard_sheet.name=Cardboard Sheet
+
+item.certus_die.name=Certus quartz die
+
+item.binding_sticky_twine.name=Sticky Twine Binding
+item.binding_yarn.name=Yarn Binding
+
+tile.pure_certusquartz_block.name=Block of Pure Certus Quartz
+tile.pure_netherquartz_block.name=Block of Pure Nether Quartz
+tile.pure_fluix_block.name=Block of Pure Fluix Crystal
+tile.companion_cube.name=Weighted Companion Cube
+
+item.weavingsticks.name=Weaving Sticks
+item.potash.name=Potash
+item.ash.name=Ash
+item.soap.name=Soap
+item.tallow.name=Tallow
+item.goo.name=Goo
+item.stamped_potato.name=Stamped Potato
+item.starch.name=Starch
+item.glue_bottle.name=Bottle of Glue
+item.unfired_clay_brick.name=Unfired Clay Brick
