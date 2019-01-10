@@ -98,7 +98,7 @@ public class ModItems {
 
 	
 
-	public static final String[] Metals = new String[]{"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "thungsten", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
+	public static final String[] Metals = new String[]{"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "thungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
 	public static final String[] Types = new String[]{"crude", "casted", "industrial", "refined"};
 	private static final String[] Itemtypes = new String[]{"ingot", "nugget"};
 	
