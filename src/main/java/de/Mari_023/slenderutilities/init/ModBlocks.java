@@ -34,7 +34,7 @@ public class ModBlocks {
 			for (int i2 = 0; i2 < Types.length; i2++) {
 					BLOCKS.add(new BlockMetal(Types[i2]+"_"+Metals[i1]+"_block", Material.IRON));
 			}
-			if(i1<11) {
+			if(i1<10) {
 				BLOCKS.add(new Ore(Metals[i1]));
 			}
 		}

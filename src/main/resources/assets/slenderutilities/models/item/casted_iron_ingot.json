@@ -1,6 +1,0 @@
-{
-   "parent": "item/generated",
-   "textures": {
-       "layer0": "slenderutilities:items/metals/ingots/casated/ingot_iron"
-   }
-}
