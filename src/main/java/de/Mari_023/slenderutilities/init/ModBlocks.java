@@ -19,9 +19,9 @@ public class ModBlocks {
 	public static final List<Block> BLOCKS = new ArrayList<Block>();
 	
 	//Pure Blöcke
-	public static final Block PURE_CERTUS = new PureBlock("pure_certusquartz_block", Material.ROCK);
-	public static final Block PURE_FLUIX = new PureBlock("pure_fluix_block", Material.ROCK);
-	public static final Block PURE_QUARTZ = new PureBlock("pure_netherquartz_block", Material.ROCK);
+	public static final Block PURE_CERTUS = new PureBlock("pure_certusquartz_block", Material.ICE);
+	public static final Block PURE_FLUIX = new PureBlock("pure_fluix_block", Material.ICE);
+	public static final Block PURE_QUARTZ = new PureBlock("pure_netherquartz_block", Material.ICE);
 	
 	public static final Block COMPANIONCUBE = new BlockBase("companion_cube", Material.IRON);
 	

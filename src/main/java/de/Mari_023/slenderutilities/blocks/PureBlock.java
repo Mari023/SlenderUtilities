@@ -5,6 +5,7 @@ import de.Mari_023.slenderutilities.init.ModBlocks;
 import de.Mari_023.slenderutilities.init.ModItems;
 import de.Mari_023.slenderutilities.util.IHasModel;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockBreakable;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.state.IBlockState;
@@ -15,10 +16,10 @@ import net.minecraft.util.BlockRenderLayer;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class PureBlock extends Block implements IHasModel {
+public class PureBlock extends BlockBreakable implements IHasModel {
 
 	public PureBlock(String name, Material material) {
-		super(material);
+		super(material, false);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(ModItems.tabslenderutilities);
