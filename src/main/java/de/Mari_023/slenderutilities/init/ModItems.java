@@ -2,6 +2,8 @@ package de.Mari_023.slenderutilities.init;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import de.Mari_023.slenderutilities.items.ItemBark;
 import de.Mari_023.slenderutilities.items.ItemBase;
 import de.Mari_023.slenderutilities.items.ItemMetal;
 import de.Mari_023.slenderutilities.items.Sawblade;
@@ -46,7 +48,7 @@ public class ModItems {
 	public static final Item CHISEL = new Chisel();
 	
 	public static final Item MECHANICALCONNECTOR = new ItemBase("mechanicalconnector");
-	public static final Item WOVEN_STRING = new ItemBase("woven_string");
+	public static final Item WOVEN_STRING = new ItemBase("stringwoven");
 	public static final Item YARN = new ItemBase("yarn");
 	public static final Item CLOTH = new ItemBase("cloth");
 	public static final Item STICKY_TWINE = new ItemBase("sticky_twine");
@@ -95,14 +97,16 @@ public class ModItems {
 	public static final Item BLACKDEMONFIRE = new ItemBase("blackdemonfire");
 	public static final Item PHILLIP = new ItemBase("phillip");
 
-
 	
-
-	public static final String[] Metals = new String[]{"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "thungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
-	public static final String[] Types = new String[]{"crude", "casted", "industrial", "refined"};
-	private static final String[] Itemtypes = new String[]{"ingot", "nugget"};
 	
-
+	
+	public static final String[] Metals = new String[] {"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "tungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
+	public static final String[] Types = new String[] {"crude", "casted", "industrial", "refined"};
+	private static final String[] Itemtypes = new String[] {"ingot", "nugget"};
+	
+	private static final String[] Woodtypes = new String[] {"oak", "spruce"};
+	
+	
 	public static List<Item> getItems() {
 		for (int i1 = 0; i1 < Metals.length; i1++) {
 			for (int i2 = 0; i2 < Types.length; i2++) {
@@ -122,9 +126,17 @@ public class ModItems {
 			
 			ITEMS.add(new ItemMetal("casted_"+Metals[i1]+"_gear"));
 			ITEMS.add(new ItemMetal("industrial_"+Metals[i1]+"_gear"));
-			ITEMS.add(new ItemMetal(Metals[i1]+"_saw"));
 		}
+		
+		ITEMS.add(new ItemMetal("bronze_saw"));
+		ITEMS.add(new ItemMetal("iron_saw"));
+		ITEMS.add(new ItemMetal("steel_saw"));
+		
+		//bark
+		for(int i = 0; i < Woodtypes.length; i++) {
+			ITEMS.add(new ItemBark(Woodtypes[i]));
+		}
+		
 		return ITEMS;
 	}
-	
 }
