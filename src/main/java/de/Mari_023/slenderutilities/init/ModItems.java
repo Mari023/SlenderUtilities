@@ -94,9 +94,7 @@ public class ModItems {
 	public static final Item SCHOCKOCRAFT = new ItemBase("schockocraft");
 	public static final Item BLACKDEMONFIRE = new ItemBase("blackdemonfire");
 	public static final Item PHILLIP = new ItemBase("phillip");
-	public static final Item recordHMB288 = new HMB288();
 
-	
 	
 	
 	public static final String[] Metals = new String[] {"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "tungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
