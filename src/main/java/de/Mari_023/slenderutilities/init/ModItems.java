@@ -6,21 +6,20 @@ import java.util.List;
 import de.Mari_023.slenderutilities.items.ItemBark;
 import de.Mari_023.slenderutilities.items.ItemBase;
 import de.Mari_023.slenderutilities.items.ItemMetal;
-import de.Mari_023.slenderutilities.items.Sawblade;
+import de.Mari_023.slenderutilities.items.HMB288;
 import de.Mari_023.slenderutilities.items.Soap;
 import de.Mari_023.slenderutilities.items.WeavingSticks;
 import de.Mari_023.slenderutilities.items.tools.Chisel;
 import de.Mari_023.slenderutilities.items.tools.Saw;
 import de.Mari_023.slenderutilities.items.tools.ToolPickaxe;
 import de.Mari_023.slenderutilities.items.tools.ToolSpade;
-import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemSword;
+import net.minecraftforge.client.event.sound.SoundEvent;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
@@ -35,7 +34,6 @@ public class ModItems {
 		}
 		
 	});
-	
 	
 	
 	//Materials
@@ -96,15 +94,16 @@ public class ModItems {
 	public static final Item SCHOCKOCRAFT = new ItemBase("schockocraft");
 	public static final Item BLACKDEMONFIRE = new ItemBase("blackdemonfire");
 	public static final Item PHILLIP = new ItemBase("phillip");
+	public static final Item recordHMB288 = new HMB288();
 
 	
 	
 	
 	public static final String[] Metals = new String[] {"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "tungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
 	public static final String[] Types = new String[] {"crude", "casted", "industrial", "refined"};
-	private static final String[] Itemtypes = new String[] {"ingot", "nugget"};
+	public static final String[] Itemtypes = new String[] {"ingot", "nugget"};
 	
-	private static final String[] Woodtypes = new String[] {"oak", "spruce"};
+	public static final String[] Woodtypes = new String[] {"oak", "spruce"};
 	
 	
 	public static List<Item> getItems() {

@@ -10,10 +10,6 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-
-import net.minecraft.*;
-import de.Mari_023.slenderutilities.*;
-
 @EventBusSubscriber
 public class RegistryHandler {
 	

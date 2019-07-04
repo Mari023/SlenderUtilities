@@ -7,12 +7,9 @@ import de.Mari_023.slenderutilities.blocks.BlockBase;
 import de.Mari_023.slenderutilities.blocks.BlockMetal;
 import de.Mari_023.slenderutilities.blocks.Ore;
 import de.Mari_023.slenderutilities.blocks.PureBlock;
-import de.Mari_023.slenderutilities.items.ItemBase;
 import de.Mari_023.slenderutilities.init.ModItems;
 import net.minecraft.block.Block;
-import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
-import net.minecraft.item.Item;
 
 public class ModBlocks {
 

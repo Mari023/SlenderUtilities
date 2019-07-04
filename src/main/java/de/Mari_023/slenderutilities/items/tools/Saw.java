@@ -4,7 +4,6 @@ import de.Mari_023.slenderutilities.Main;
 import de.Mari_023.slenderutilities.init.ModItems;
 import de.Mari_023.slenderutilities.util.IHasModel;
 import net.minecraft.item.Item;
-import net.minecraftforge.common.util.EnumHelper;
 
 public class Saw extends Item implements IHasModel {
 
