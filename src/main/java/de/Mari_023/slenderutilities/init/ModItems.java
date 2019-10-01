@@ -6,6 +6,7 @@ import java.util.List;
 import de.Mari_023.slenderutilities.items.ItemBark;
 import de.Mari_023.slenderutilities.items.ItemBase;
 import de.Mari_023.slenderutilities.items.ItemMetal;
+import de.Mari_023.slenderutilities.items.EarlyPearl;
 import de.Mari_023.slenderutilities.items.HMB288;
 import de.Mari_023.slenderutilities.items.Soap;
 import de.Mari_023.slenderutilities.items.WeavingSticks;
@@ -94,7 +95,7 @@ public class ModItems {
 	public static final Item SCHOCKOCRAFT = new ItemBase("schockocraft");
 	public static final Item BLACKDEMONFIRE = new ItemBase("blackdemonfire");
 	public static final Item PHILLIP = new ItemBase("phillip");
-
+	public static final Item EARLYPEARL = new EarlyPearl();
 	
 	
 	public static final String[] Metals = new String[] {"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "tungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
@@ -105,7 +106,7 @@ public class ModItems {
 	
 	
 	public static List<Item> getItems() {
-		for (int i1 = 0; i1 < Metals.length; i1++) {
+		/*for (int i1 = 0; i1 < Metals.length; i1++) {
 			for (int i2 = 0; i2 < Types.length; i2++) {
 				for (int i3 = 0; i3 < Itemtypes.length; i3++) {
 					ITEMS.add(new ItemMetal(Types[i2]+"_"+Metals[i1]+"_"+Itemtypes[i3]));
@@ -133,7 +134,7 @@ public class ModItems {
 		for(int i = 0; i < Woodtypes.length; i++) {
 			ITEMS.add(new ItemBark(Woodtypes[i]));
 		}
-		
+		*/
 		return ITEMS;
 	}
 }

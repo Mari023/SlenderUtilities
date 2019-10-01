@@ -27,14 +27,14 @@ public class ModBlocks {
 	public static final String[] Types = ModItems.Types;
 	
 	public static List<Block> getBlocks() {
-		for (int i1 = 0; i1 < Metals.length; i1++) {
+		/*for (int i1 = 0; i1 < Metals.length; i1++) {
 			for (int i2 = 0; i2 < Types.length; i2++) {
 					BLOCKS.add(new BlockMetal(Types[i2]+"_"+Metals[i1]+"_block", Material.IRON));
 			}
 			if(i1<11) {
 				BLOCKS.add(new Ore(Metals[i1]));
 			}
-		}
+		}*/
 		return BLOCKS;
 	}
 }

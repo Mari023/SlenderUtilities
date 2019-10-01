@@ -41,7 +41,7 @@ public class HMB288 extends Item implements IHasModel {
             if(!worldIn.isRemote) {
                 ItemStack itemstack = player.getHeldItem(hand);
                 ((BlockJukebox)Blocks.JUKEBOX).insertRecord(worldIn, pos, iblockstate, itemstack);
-                worldIn.playEvent((EntityPlayer)null, 1010, pos, Item.getIdFromItem(this));
+                worldIn.playEvent((EntityPlayer) null, 1010, pos, Item.getIdFromItem(this));
                 itemstack.shrink(1);
                 player.addStat(StatList.RECORD_PLAYED);
             }
