@@ -16,8 +16,8 @@ import net.minecraft.world.World;
 
 public class EarliPearl extends Item implements IHasModel {
     public EarliPearl() {
-		setUnlocalizedName("earlypearl");
-		setRegistryName("earlypearl");
+		setUnlocalizedName("earlipearl");
+		setRegistryName("earlipearl");
         this.maxStackSize = 16;
         this.setCreativeTab(ModItems.tabslenderutilities);
 		ModItems.ITEMS.add(this);
