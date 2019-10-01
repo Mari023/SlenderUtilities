@@ -23,20 +23,20 @@ import net.minecraft.world.World;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
-public class EarlyPearl extends EntityThrowable {
+public class EarliPearl extends EntityThrowable {
 	private EntityLivingBase perlThrower;
 
-	public EarlyPearl(World worldIn) {
+	public EarliPearl(World worldIn) {
 		super(worldIn);
 	}
 
-	public EarlyPearl(World worldIn, EntityLivingBase throwerIn) {
+	public EarliPearl(World worldIn, EntityLivingBase throwerIn) {
 		super(worldIn, throwerIn);
 		this.perlThrower = throwerIn;
 	}
 
 	@SideOnly(Side.CLIENT)
-	public EarlyPearl(World worldIn, double x, double y, double z) {
+	public EarliPearl(World worldIn, double x, double y, double z) {
 		super(worldIn, x, y, z);
 	}
 

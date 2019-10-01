@@ -14,8 +14,8 @@ import net.minecraft.util.EnumHand;
 import net.minecraft.util.SoundCategory;
 import net.minecraft.world.World;
 
-public class EarlyPearl extends Item implements IHasModel {
-    public EarlyPearl() {
+public class EarliPearl extends Item implements IHasModel {
+    public EarliPearl() {
 		setUnlocalizedName("earlypearl");
 		setRegistryName("earlypearl");
         this.maxStackSize = 16;
@@ -37,7 +37,7 @@ public class EarlyPearl extends Item implements IHasModel {
         //playerIn.getCooldownTracker().setCooldown(this, 20);
 
         if (!worldIn.isRemote) {
-        	de.Mari_023.slenderutilities.entity.EarlyPearl entityenderpearl = new de.Mari_023.slenderutilities.entity.EarlyPearl(worldIn, playerIn);
+        	de.Mari_023.slenderutilities.entity.EarliPearl entityenderpearl = new de.Mari_023.slenderutilities.entity.EarliPearl(worldIn, playerIn);
             entityenderpearl.shoot(playerIn, playerIn.rotationPitch, playerIn.rotationYaw, 0.0F, 1.5F, 1.0F);
             worldIn.spawnEntity(entityenderpearl);
         }

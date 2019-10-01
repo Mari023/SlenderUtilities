@@ -3,11 +3,8 @@ package de.Mari_023.slenderutilities.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.Mari_023.slenderutilities.items.ItemBark;
 import de.Mari_023.slenderutilities.items.ItemBase;
-import de.Mari_023.slenderutilities.items.ItemMetal;
-import de.Mari_023.slenderutilities.items.EarlyPearl;
-import de.Mari_023.slenderutilities.items.HMB288;
+import de.Mari_023.slenderutilities.items.EarliPearl;
 import de.Mari_023.slenderutilities.items.Soap;
 import de.Mari_023.slenderutilities.items.WeavingSticks;
 import de.Mari_023.slenderutilities.items.tools.Chisel;
@@ -20,7 +17,7 @@ import net.minecraft.item.Item.ToolMaterial;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemStack;
-import net.minecraftforge.client.event.sound.SoundEvent;
+
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems {
@@ -95,7 +92,7 @@ public class ModItems {
 	public static final Item SCHOCKOCRAFT = new ItemBase("schockocraft");
 	public static final Item BLACKDEMONFIRE = new ItemBase("blackdemonfire");
 	public static final Item PHILLIP = new ItemBase("phillip");
-	public static final Item EARLYPEARL = new EarlyPearl();
+	public static final Item EARLIPEARL = new EarliPearl();
 	
 	
 	public static final String[] Metals = new String[] {"copper", "tin", "aluminium", "lead", "iron", "gold", "nickel", "shiny", "zinc", "tungsten", "silver", "steel", /*alloys*/"bronze", "brass", "constantan", "electrum"};
